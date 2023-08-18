@@ -1,0 +1,52 @@
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    padding: 10px;
+    width: 380px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.wrapTodo form {
+    width: 300px;
+    margin: auto;
+}
+
+.listTodo {
+    padding: 20px;
+}
+
+.item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-edit {
+    width: 25px;
+    height: 30px;
+}
+
+.icon-delete {
+    width: 25px;
+    height: 30px;
+    padding: 0;
+}
+
+.delateBtn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.editBtn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
